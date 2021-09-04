@@ -1,4 +1,4 @@
-## O Projeto.
+## Sobre o projeto.
 ### Fonte:
  - 'Roboto', sans-serif;
 

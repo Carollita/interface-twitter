@@ -7,46 +7,46 @@
     </head>
     <body>
         <!---CABEÇALHO-->
-        <header>
+        <header class="cabeçalho">
 
             <!--LOGO-->
-            <figure>
+            <figure class="cabeçalho__logo">
                 <img src="assets/img/bird 1.svg" alt="Logo Ken-Te-Vi">
                 <figcaption hidden>Logo Ken-Te-Vi</figcaption>
             </figure>
 
             <!---MENU-->
-            <nav>
-                <ul>
-                    <li>
+            <nav class="cabeçalho__menu">
+                <ul class="cabeçalho__menu-lista">
+                    <li class="cabeçalho__menu-item">
                         <img src="assets/img/Home.png" alt="">
                         <a href="">Página Inicial</a>
                     </li>
-                    <li>
+                    <li class="cabeçalho__menu-item">
                         <img src="assets/img/Hashtag.png" alt="">
                         <a href="">Explorar</a>
                     </li>
-                    <li>
+                    <li class="cabeçalho__menu-item">
                         <img src="assets/img/Notification.png" alt="">
                         <a href="">Notificações</a>
                     </li>
-                    <li>
+                    <li class="cabeçalho__menu-item">
                         <img src="assets/img/Group.png" alt="">
                         <a href="">Mensagens</a>
                     </li>
-                    <li>
+                    <li class="cabeçalho__menu-item">
                         <img src="assets/img/Group (1).png" alt="">
                         <a href="">Itens salvos</a>
                     </li>
-                    <li>
+                    <li class="cabeçalho__menu-item">
                         <img src="assets/img/Group (2).png" alt="">
                         <a href="">Listas</a>
                     </li>
-                    <li>
+                    <li class="cabeçalho__menu-item">
                         <img src="assets/img/ProfilePic.png" alt="">
                         <a href="">Perfil</a>
                     </li>
-                    <li>
+                    <li class="cabeçalho__menu-item">
                         <img src="assets/img/Group (3).png" alt="">
                         <a href="">Mais</a>
                     </li>
@@ -55,28 +55,30 @@
         </header>
 
         <!---CONTEÚDO PRINCIPAL-->  
-        <main>
-            <h2>Home</h2>
-            <form action="#">
+        <main class="conteudo-principal">
+            <h2 class="conteudo-principal__titulo">Home</h2>
+            <form action="#" class="conteudo-principal__formulario">
                 <textarea name="Tweet" placeholder="O que está acontecendo?" cols="30" rows="10"></textarea>
                 <button type="submit">Tweetar</button>
             </form>
 
             <!--FEED-->
-            <section>
-                <ul>
+            <section class="conteudo-principal__feed">
+                
+                <!--CAIXA COM INFORMAÇÕES DO USUÁRIO-->
+                <ul class="conteudo-principal__lista-tweets">
+                    <li class="conteudo-principal__tweet">
+                        <img class="tweet__foto-perfil" src="assets/img/ProfilePic.png" alt="Daniel">
 
-                    <li>
-                        <img src="assets/img/ProfilePic.png" alt="Daniel">
-                        <div>
+                        <div class="tweet__conteudo">
                             <h2>Daniel</h2>
                             <span>@danielkenzie 14s</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae, qui cumque deserunt officia iure explicabo blanditiis voluptatibus? Cupiditate libero obcaecati architecto. Animi totam omnis tempore id non laborum! Maiores.</p>
                         </div>
                     </li>
 
-                    <li>
-                        <img src="assets/img/ProfilePic (1).png" alt="Maria">
+                    <li class="conteudo-principal__tweet">
+                        <img class="tweet__foto-perfil" src="assets/img/ProfilePic (1).png" alt="Maria">
                         <div>
                             <h2>Maria</h2>
                             <span>@mariakenzie 14s</span>
@@ -84,8 +86,8 @@
                         </div>
                     </li>
 
-                    <li>
-                        <img src="assets/img/ProfilePic (2).png" alt="Hudson">
+                    <li class="conteudo-principal__tweet">
+                        <img class="tweet__foto-perfil" src="assets/img/ProfilePic (2).png" alt="Hudson">
                         <div>
                             <h2>Hudson</h2>
                             <span>@hudsonkenzie 14s</span>

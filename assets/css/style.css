@@ -1,0 +1,32 @@
+/*ESTILO PAGINA INDEX*/
+/* BEM = BLOCK ELEMENT MODIFY*/
+
+/*BODY*/
+body{}
+
+/*CABEÇALHO*/
+.cabeçalho{}
+.cabeçalho__logo{}
+.cabeçalho__logo img{}
+.cabeçalho__menu{}
+.cabeçalho__menu-lista{}
+.cabeçalho__menu-item{}
+.cabeçalho__menu-item img{}
+.cabeçalho__menu-item a{}
+
+/*CONTEÚDO PRINCIPAL*/
+.conteudo-principal{}
+.conteudo-principal__titulo{}
+.conteudo-principal__formulario{}
+.conteudo-principal__formulario textarea{}
+.conteudo-principal__formulario button{}
+.conteudo-principal__feed{}
+.conteudo-principal__lista-tweets{}
+.conteudo-principal__tweet{}
+.tweet__foto-perfil{}
+.tweet__conteudo{}
+.tweet__conteudo h2{}
+.tweet__conteudo span{}
+.tweet__conteudo p{}
+
+
