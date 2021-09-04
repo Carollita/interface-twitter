@@ -2,31 +2,116 @@
 /* BEM = BLOCK ELEMENT MODIFY*/
 
 /*BODY*/
-body{}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
 
 /*CABEÇALHO*/
-.cabeçalho{}
-.cabeçalho__logo{}
-.cabeçalho__logo img{}
-.cabeçalho__menu{}
-.cabeçalho__menu-lista{}
-.cabeçalho__menu-item{}
-.cabeçalho__menu-item img{}
-.cabeçalho__menu-item a{}
+.cabeçalho{
+    flex-basis: 30%;
+}
+
+.cabeçalho__logo{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.cabeçalho__logo figcaption{
+    display: none;
+}
+
+.cabeçalho__menu{
+    padding: 10px;
+}
+
+.cabeçalho__menu-item{
+    margin-bottom: 25px;
+}
+
+.cabeçalho__menu-item img{
+    max-width: 26px;
+}
+
+.cabeçalho__menu-item a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    vertical-align: top;
+    font-weight: bold;
+}
 
 /*CONTEÚDO PRINCIPAL*/
-.conteudo-principal{}
-.conteudo-principal__titulo{}
-.conteudo-principal__formulario{}
-.conteudo-principal__formulario textarea{}
-.conteudo-principal__formulario button{}
-.conteudo-principal__feed{}
-.conteudo-principal__lista-tweets{}
-.conteudo-principal__tweet{}
-.tweet__foto-perfil{}
-.tweet__conteudo{}
-.tweet__conteudo h2{}
-.tweet__conteudo span{}
-.tweet__conteudo p{}
+.conteudo-principal{
+    flex-basis: 70%;
+    border-left: 1px solid #e7ecf0;
+    border-right: 1px solid #e7ecf0;
+
+}
+.conteudo-principal__titulo{
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.conteudo-principal__formulario{
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
+
+.conteudo-principal__formulario textarea{
+    display: block;
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.conteudo-principal__formulario button{
+    background-color: #1da1f2;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.conteudo-principal__tweet{
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e7ecf0;
+}
+
+.tweet__conteudo{
+    margin-left: 15px;
+}
+
+.tweet__conteudo h2{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.tweet__conteudo span{
+    display: inline-block;
+    color: #828282;
+}
+
+.tweet__conteudo p{
+    margin-top: 10px;
+    color: #333;
+}
+
+p .tweet__hashtag{
+    color: #1da1f2;
+}
 
 

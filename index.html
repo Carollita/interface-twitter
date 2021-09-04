@@ -2,10 +2,18 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/css/reset.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="assets/css/style.css">
+
         <title>Ken-Te-Vi</title>
     </head>
     <body>
+        <div class="container">
         <!---CABEÇALHO-->
         <header class="cabeçalho">
 
@@ -17,7 +25,7 @@
 
             <!---MENU-->
             <nav class="cabeçalho__menu">
-                <ul class="cabeçalho__menu-lista">
+                <ul>
                     <li class="cabeçalho__menu-item">
                         <img src="assets/img/Home.png" alt="">
                         <a href="">Página Inicial</a>
@@ -63,40 +71,45 @@
             </form>
 
             <!--FEED-->
-            <section class="conteudo-principal__feed">
+            <section>
                 
                 <!--CAIXA COM INFORMAÇÕES DO USUÁRIO-->
-                <ul class="conteudo-principal__lista-tweets">
+                <ul>
                     <li class="conteudo-principal__tweet">
-                        <img class="tweet__foto-perfil" src="assets/img/ProfilePic.png" alt="Daniel">
+                        <img src="assets/img/ProfilePic.png" alt="Daniel">
 
                         <div class="tweet__conteudo">
                             <h2>Daniel</h2>
                             <span>@danielkenzie 14s</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae, qui cumque deserunt officia iure explicabo blanditiis voluptatibus? Cupiditate libero obcaecati architecto. Animi totam omnis tempore id non laborum! Maiores.</p>
+                            <p>MAIS DE 1 MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mil profissionais de tecnologia. É hora de se preparar...<span class="tweet__hashtag">#VouSerDev #DoZeroAoCodigo</span></p>
                         </div>
                     </li>
 
                     <li class="conteudo-principal__tweet">
-                        <img class="tweet__foto-perfil" src="assets/img/ProfilePic (1).png" alt="Maria">
-                        <div>
+                        <img src="assets/img/ProfilePic (1).png" alt="Maria">
+
+                        <div class="tweet__conteudo">
                             <h2>Maria</h2>
                             <span>@mariakenzie 14s</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae, qui cumque deserunt officia iure explicabo blanditiis voluptatibus? Cupiditate libero obcaecati architecto. Animi totam omnis tempore id non laborum! Maiores.</p>
+                            <p>Este é um tweet. Pode ser longo ou curto. Depende do que você tem a dizer. Ele pode ter algumas hashtags também. <span class="tweet__hashtag">#likethis</span></p>
                         </div>
                     </li>
 
                     <li class="conteudo-principal__tweet">
-                        <img class="tweet__foto-perfil" src="assets/img/ProfilePic (2).png" alt="Hudson">
-                        <div>
+                        <img src="assets/img/ProfilePic (2).png" alt="Hudson">
+
+                        <div class="tweet__conteudo">
                             <h2>Hudson</h2>
                             <span>@hudsonkenzie 14s</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae, qui cumque deserunt officia iure explicabo blanditiis voluptatibus? Cupiditate libero obcaecati architecto. Animi totam omnis tempore id non laborum! Maiores.</p>
+                            <p>98% de <span class="tweet__hashtag">#empregabilidade</span>? Só na Kenzie... Pois é, 98% dos alunos formados estão trabalhando na área menos de 1 mês após a graduação. <span class="tweet__hashtag">#ninguemmesegura</span></p>
+                            
                         </div>
                     </li>
 
                 </ul>
             </section>
         </main>
+        <script src="assets/js/script.js"></script>
+        </div>
     </body>
 </html>
